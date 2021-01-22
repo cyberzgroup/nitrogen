@@ -1,15 +1,5 @@
 
 
-$exec = curl_init("$webhook"); 
-curl_setopt( $exec, CURLOPT_HTTPHEADER, array('Content-type: application/json'));
-curl_setopt( $exec, CURLOPT_POST, 1);
-curl_setopt( $exec, CURLOPT_POSTFIELDS, $make_json);
-curl_setopt( $exec, CURLOPT_FOLLOWLOCATION, 1);
-curl_setopt( $exec, CURLOPT_HEADER, 0);
-curl_setopt( $exec, CURLOPT_RETURNTRANSFER, 1);
-$response = curl_exec( $exec );
-?>
-
 <html lang="en">
 
 
